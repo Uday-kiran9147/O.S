@@ -1,0 +1,2 @@
+new 1st line is added to file 
+new 2st line is added to file 
