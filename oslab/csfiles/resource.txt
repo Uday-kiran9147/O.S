@@ -1,0 +1,3 @@
+gcc fork5.c -o fork5
+./fork5
+

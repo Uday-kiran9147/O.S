@@ -9,7 +9,6 @@
 #include  <sys/types.h>
 #include  <unistd.h>
 
-
 #define   MAX_COUNT  200
 
 void  ChildProcess(void);                /* child process prototype  */
