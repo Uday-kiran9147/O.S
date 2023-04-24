@@ -11,7 +11,7 @@ void copyFile()
     char ch;   //character ch to copy the characters from the source file and pastes in destination file.
 
     SOURCE = fopen("new.txt", "r");                   
-    DESTINATION = fopen("newdest.txt", "w");     // open/creates destination file  " w " is for writhing content.
+    DESTINATION = fopen("newdest.txt", "w");     // open/creates destination file  " w " is for writing content.
 
     if (SOURCE == NULL || DESTINATION == NULL)
     {

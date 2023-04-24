@@ -1,0 +1,6 @@
+create a multithreaded program to impliment the bankers algorithm. there are n customers who
+will request for m resources types. the banker will grant request only if it leaves the system
+in safe state. a request that leaves the system in unsafe state will be denied.a request 
+for resources will be bounded by their respective values in the need array. the function prototype
+are requesting and releasing resources as follows: int req_resourse(int cid, int req[]);
+int req_resourse(int cid, int req[]);
