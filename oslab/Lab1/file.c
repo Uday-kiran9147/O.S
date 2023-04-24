@@ -6,8 +6,7 @@ void fileopen()
     FILE *file;
 
     file = fopen("test.txt", "r"); //  (" r ") that means read.
-    // to open a file in read mode we need to make sure the file is present in the location or directory we are opening.
-
+    //  to open a file in read mode we need to make sure the file is present in the location or directory we are opening.
     char content[1000]; // stores the content of the file in characters.
 
     if (file != NULL)

@@ -3,10 +3,11 @@
 void createANDwrite()
 {
     FILE *file;
+    //writing to file
     file = fopen("new1.txt", "w");
-    fputs("I am adding new texchist in the file every time when writing in new file it starts writing from the fscratch", file);
+    fputs("I am adding new text in the file every time when writing in new file it starts writing from the scratch", file);
     fclose(file);
-
+    //reading from file
     char ch[1000];
     file = fopen("new1.txt", "r");
     if (file != NULL)
