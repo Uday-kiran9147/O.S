@@ -4,7 +4,15 @@
 
 int req_resourse(int cid, int req[]);
 
-int req_resourse(int cid, int req[]);
+int req_resourse(int cid, int req[]){
+    int i;
+    for(i=0;i<5;i++){
+        printf("%d ",req[i]);
+    }
+    printf("\n");
+    return 0;
+    
+};
 
 int main(){
     int n,m;
