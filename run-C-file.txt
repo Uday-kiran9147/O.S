@@ -1,0 +1,2 @@
+1. gcc fork.c -o fork
+2. ./fork
