@@ -34,7 +34,7 @@ void decrypt(int a, int b, char cipher[])
 
 int main()
 {
-    char message[] = "HELLO";
+    char message[] = "AFFINE CIPHER";
     int a = 5, b = 8;
 
     encrypt(a, b, message);

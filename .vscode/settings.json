@@ -1,6 +1,7 @@
 {
     "C_Cpp.errorSquiggles": "enabled",
     "files.associations": {
-        "EXAM.C": "cpp"
+        "EXAM.C": "cpp",
+        "NAG.C": "cpp"
     }
 }
